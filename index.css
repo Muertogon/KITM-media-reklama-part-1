@@ -1,0 +1,44 @@
+body{
+    background: #eee url("backgrounde.jpg");
+    height: 450px;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    background-size: cover;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+header{
+    display:flex;
+    justify-content:center;
+    position:relative;
+    padding: 5em;
+}
+header.logo{
+    position:absolute;
+    grid-row:1;
+    grid-column:1;
+}
+.headtext1{
+    display:grid;
+    grid-row:2;
+    grid-column:1/2;
+
+}
+.headtext2{
+    display:grid;
+}
+.headtext3{
+    display:grid;
+}
+.autist{
+    border:none;
+
+}
+header.
+
+@media (max-width:768px) {
+}
+@media (min-width: 768px) and (max-width:1024px){
+}
